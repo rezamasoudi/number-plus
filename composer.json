@@ -1,31 +1,38 @@
 {
-    "name": "masoudi/number-plus",
-    "description": "Advance number field for Laravel Nova",
-    "keywords": [
-        "laravel",
-        "nova",
-        "number",
-        "currency"
-    ],
-    "license": "MIT",
-    "require": {
-        "php": "^7.3|^8.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Masoudi\\NumberPlus\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Masoudi\\NumberPlus\\FieldServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "masoudi/number-plus",
+  "description": "Advance number field for Laravel Nova",
+  "authors": [
+    {
+      "name": "Reza Masoudi",
+      "email": "dev.masoudi@gmail.com"
+    }
+  ],
+  "keywords": [
+    "laravel",
+    "nova",
+    "field",
+    "number"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.3|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Masoudi\\NumberPlus\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Masoudi\\NumberPlus\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "version": "0.1"
 }

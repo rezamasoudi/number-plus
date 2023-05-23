@@ -27,7 +27,7 @@ NumberPlus::make('Salary')
       "prefix" => '$ ',
       "suffix" => ' Yearly',
       "precision" => 2,
-      "masked" => true,
+      "masked" => false,
   ]),
 ```
 
